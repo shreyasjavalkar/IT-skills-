@@ -1,0 +1,77 @@
+<html>
+<head>
+    <title>Document</title>
+    <style>
+        *{
+            margin:0;
+            padding: 0;
+            font-family: Century Gothic;
+        }
+        header{
+            height: 100%;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size:cover;
+            background-image: url(dev1.jpg);
+            padding: 0 50px;
+        }
+        ul{
+            float: right;
+            list-style-type: none;
+            margin-top: 25px;
+        }
+        ul li{
+            display: inline-block;
+        }
+        ul li a{
+            text-decoration: none;
+            color: #fff;
+            padding: 5px 20px;
+            border: 1px solid #fff;
+        }
+        ul li:hover{
+            color: #000;
+            background-color: #fff;
+        }
+        ul li.active a{
+            color: #000;
+            background-color: #fff;
+        }
+        .box{
+            width: 450px;
+            padding: 60px;
+            text-align: center;
+            background-color: rgba(0,0,0,0.4);
+            margin: auto;
+            color: white;
+            font-family: 'Century Gothic',sans-serif;
+
+        }
+        .box-img{
+            border-radius: 50%;
+            width: 200px;
+            height: 200px;
+        }
+        .box p{
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="main">
+            <ul><li><a href="page1.html">HOME</a></li>
+                <li class="active"><a href="about1.html">ABOUT</a></li>
+                <li><a href="contact2.html">CONTACT</a></li>
+
+            </ul>
+        </div>
+        <div class="box">
+            <img src="dev1.jpg" alt="img" class="box-img"/>
+            <h1>DARK CODER</h1>
+            <h5>web developer</h5>
+            <p>I am Darkcoder I am a web developer</p>
+        </div>
+    </header>
+</body>
+</html>
